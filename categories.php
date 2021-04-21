@@ -43,7 +43,7 @@
   <main class="flex-shrink-0">
     <div class="container-sm">
       <h1 class="display-1">
-        First Page
+        Categories Page
       </h1>
       <button type="button" class="btn btn-warning">Warning</button>
     </div>

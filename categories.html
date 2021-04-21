@@ -41,13 +41,23 @@
   </div>
   <!-- main content -->
   <main class="flex-shrink-0">
-    <div class="container-sm">
-      <h1 class="display-1">
-        First Page
-      </h1>
-      <button type="button" class="btn btn-warning">Warning</button>
-    </div>
-  </main>
+   <div class="container-sm">
+     <div class="row" >
+       <div class="col">
+        <div class="cardBody"  style="background-color: #404040; align-content: center; text-align: left; border: 5px solid tomato; padding: 10px;">
+         <h3 class="searchHeader mb-1" style="color: gold; text-align: left; font-style: italic; font-size: 30px;">Categories</h3>
+         <input type="text" name="catSearch" placeholder="Type what you wanna search" class="mb-1" style="width: 100%; margin-top: 10px;"> 
+         <div style="margin-top: 10px;" class="btn-group col-12" role="group" aria-label="Basic example">
+         <button type="button"  class="btn btn-primary btn-block">Blue Pill</button>
+         <button type="button" class="btn btn-danger btn-block">Red Pill</button>
+       </div>
+        </div>
+     
+       </div>
+
+     </div>
+   </div>
+ </main>
 
   <!-- sticky footer, required the h-100 class to be applied to the root html tag -->
   <footer class="footer mt-auto py-3 bg-light">
